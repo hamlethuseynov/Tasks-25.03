@@ -1,0 +1,308 @@
+
+/* Common things */
+body {
+    font-family: Nunito;
+    overflow-x: hidden !important;
+}
+
+.btn {
+  
+    box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+    padding: 1.25rem 2rem!important;
+    font-family: 'Varela Round'!important;
+    font-size: 80%!important;
+    text-transform: uppercase!important;
+    letter-spacing: .15rem!important;
+    border: 0!important;
+    color: #fff!important;
+}
+.btn-primary {
+    background-color: #64a19d!important;
+    
+}
+.btn-primary:hover {
+    background-color: #4f837f!important;
+    
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.bg-black {
+    background-color: #161616!important;
+}
+    /* Header */
+#header .navbar-brand{
+    font-weight: 700;
+    padding: .5rem 0;
+    color: rgba(255,255,255,.5);
+    font-size: 1.25rem;
+}   
+#header .navbar{
+    transition: background-color .2s ease;
+}
+
+#header .navbar.navbar-scrolled {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+    background-color: #fff;
+    padding: 0rem;
+}
+#header .nav-item .nav-link{
+    padding: 2rem 1.5rem;
+    color: rgba(255,255,255,.5);
+}
+#header .nav-item .nav-link:hover{
+    
+    color: rgba(255,255,255,.75);
+}
+#header .navbar.navbar-scrolled .navbar-brand{
+    color: #212529;
+}
+#header .navbar.navbar-scrolled .nav-item .nav-link{
+    color: #212529;
+}
+
+#header .navbar.navbar-scrolled .navbar-brand:hover{
+    color: #f24516;
+}
+
+#header .navbar.navbar-scrolled .nav-link:hover{
+    color: #f24516;
+}
+
+/* Intro */
+#intro{
+    background-image: url('../img/bg-fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 35rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#intro::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%);
+}
+#intro h1{
+    font-size: 6.5rem;
+    font-family: 'Varela Round';
+    color: rgba(255, 255, 255, 0.493)
+  
+}
+#intro h1::after{
+    content: '';
+}
+#intro p{
+    font-size: 1.25rem;
+    color: rgba(255,255,255,.5);
+    max-width: 30rem;
+}
+/* About section */
+#about{
+    background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+}
+#about h2{
+
+}
+#about p{
+    font-weight: 600;
+}
+#about p a{
+    color: #64a19d;
+}
+#about p a:hover{
+    text-decoration: none;
+    color: #3c6360;
+}
+/* Projects Section */
+#projects{
+    padding: 10rem 0;
+}
+
+#projects .infobox{
+    border-left: 8px solid rgba(128, 128, 128, 0.603);
+    padding: 0 0 0 2rem;
+}
+#projects .infobox h4{
+color: rgba(0, 0, 0, 0.74);
+font-weight: 500;
+}
+
+#projects .project-text{
+    padding:  7rem 5rem;
+}
+.project-text p{
+    font-size: 1rem;
+}
+.project-text hr{
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+}
+/* Footer Subscribe */
+#subscribe{
+    background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg-signup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 10rem 0;
+}
+    
+#subscribe i{
+    font-size: 2rem;
+    color: white;
+}
+#subscribe h2{
+    color: white;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.10rem;
+    font-weight: 400;
+}
+#subscribe input{
+    box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-family: 'Varela Round';
+    font-size: 76%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+    border-radius: .25rem;
+    width: auto;
+    flex: 1 1 auto!important;
+    margin-right: 6px;
+}
+/* footer contacts */
+#contacts{
+    background-color: #161616!important;
+}
+#contacts .card{
+    border: 0;
+    border-bottom: .25rem solid #64a19d;
+}
+#contacts .card-body{
+    text-align: center;
+}
+#contacts .card-body i{
+    color: gray;
+}
+#contacts .card-body h5{
+    font-size: 19px;
+    color: gray;
+    font-weight: 400;
+}
+#contacts .card-body hr{
+    max-width: 3.25rem;
+    border-width: .2rem;
+    border-color: rgba(48, 47, 47, 0.664)
+
+}
+#contacts .card-body a{
+    color: #64a19d;
+}
+#contacts .card-body a:hover{
+    text-decoration: none;
+    color: #3c6360;
+}
+#contacts .social{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+#contacts .social a{
+    margin: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    line-height: 3rem;
+    text-align: center;
+    background: rgba(255,255,255,.1);
+    color: rgba(255,255,255,.3);
+}
+/* Footer copyright */
+#copyright{
+    background-color: #161616!important;
+    padding: 5rem 0;
+}
+/* Responsive */
+@media screen and (min-width: 992px){
+   
+  
+    #projects .text-lg-left{
+        text-align: left!important;
+    }
+    #projects .text-lg-right{
+        text-align: right!important;
+    }
+    #projects .order-lg-first{
+        order: 1;
+    }
+
+  
+}
+@media screen and (max-width: 992px){
+    #header .navbar {
+        -webkit-box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+        background-color: #fff;
+        padding: 0rem;
+    }
+    #header .navbar .navbar-brand{
+        color: #212529;
+    }
+    #header .navbar .nav-item .nav-link{
+        color: #212529;
+    }
+    
+    #intro h1{
+        font-size: 2.5rem;
+    }
+    #intro p{
+        font-size: 1rem;
+    }
+    #projects .infobox{
+        border-left: none;
+        padding: 10px;
+        text-align: center;
+    }
+  
+    #projects .project-text{
+        padding: 5rem 2rem;
+       
+    }
+    #projects .img-fluid{
+        width: 100%;
+    }
+    #projects .order-lg-first{
+        order: -1;
+    }
+    .project-text hr{
+        border-color: #64a19d;
+        border-width: 0px;
+        width: 0%;
+    }
+    #contacts .col-lg-3{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+  
+}
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}

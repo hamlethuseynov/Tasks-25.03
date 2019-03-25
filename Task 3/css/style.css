@@ -1,0 +1,132 @@
+
+/* Header */
+#header .navbar{
+    background-color: rgba(0,0,0,.7);
+}
+/* Intro */
+#intro{
+    padding: 200px 0px;
+    background: linear-gradient(0deg,#ff6a00 0,#ee0979 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+#intro .content{
+    z-index: 1;
+    position: relative;
+}
+#intro .content h1{
+    color: white;
+    font-size: 6rem;
+    font-weight: 700;
+}
+#intro .content h2{
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+}
+#intro .content .btn{
+    padding: 1.1rem 3rem;
+    background-color: #ee0979;
+    border-color: #ee0979;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+#intro .bg-circle{
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    background: linear-gradient(0deg,#ee0979 0,#ff6a00 100%);
+}
+#intro .bg-circle-1 {
+    height: 90rem;
+    width: 90rem;
+    bottom: -55rem;
+    left: -55rem;
+}
+#intro .bg-circle-2 {
+    height: 50rem;
+    width: 50rem;
+    top: -25rem;
+    right: -25rem;
+}
+#intro .bg-circle-3 {
+    height: 20rem;
+    width: 20rem;
+    bottom: -10rem;
+    right: 5%;
+}
+#intro .bg-circle-4 {
+    height: 30rem;
+    width: 30rem;
+    top: -5rem;
+    right: 35%;
+}
+/* About */
+#about{
+padding: 100px 0;
+}
+#about .col-lg-6{
+
+}
+#about .order-lg-1{
+    order: 2;
+}
+#about .order-lg-2{
+    order: 1;
+}
+#about-3 .order-lg-1{
+    order: 2;
+}
+#about-3 .order-lg-2{
+    order: 1;
+}
+main h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+main img{
+   border-radius: 50%;
+}
+#copyright{
+    padding: 50px 0;
+    background-color: black;
+    font-size: 80%;
+}
+/* Responsive */
+@media screen and (max-width: 992px){
+    #intro h1{
+        font-size:3.5rem!important;
+        padding:  2rem;
+    }
+    #intro h2{
+        font-size: 2.5rem!important;
+        padding:  2rem;
+    }
+    #about{
+        padding: 0;
+    }
+    #about .order-lg-1{
+        order: 1;
+        margin-bottom: 20px;
+    }
+    #about .order-lg-2{
+        order: 2;
+    }
+    #about-3 .order-lg-1{
+        order: 1;
+    }
+    #about-3 .order-lg-2{
+        order: 2;
+        margin-bottom: 1rem;
+    }
+    footer #copyright{
+        padding: 1rem;
+    }
+}

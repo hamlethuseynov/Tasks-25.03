@@ -1,0 +1,310 @@
+    /* Common things */
+    .btn{
+        border-radius: 300px;
+        font-family: Lato,Helvetica,Arial,sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+    .btn-outline-primary{
+        color: white!important;
+        border-radius:  22px!important;
+        border-color: white!important;
+    }
+    .btn-outline-primary:hover{
+        border-color: #fdcc52!important;
+        background-color: #fdcc52!important;
+    }
+    .btn-xl{
+        font-size: 11px!important;
+        padding: 13px 40px!important;
+    }
+    /* Header */
+    #header .navbar-brand{
+        padding: 0;
+        color: #fdcc52;
+        font-size: 1.25rem;
+    }  
+    #header .navbar-brand:hover{
+        color: rgb(255, 255, 255);
+        
+    }    
+    #header .navbar{
+        transition: background-color .2s ease;
+        padding: .7rem 1rem;
+    }
+    
+    #header .navbar.navbar-scrolled {
+        -webkit-box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+        background-color: #fff;
+        padding: .7rem 1rem;
+    }
+    #header .nav-item .nav-link{
+        padding: 0rem 1.5rem;
+        color: rgba(255,255,255,.7);
+    }
+    #header .nav-item .nav-link:hover{
+        
+        color: rgb(255, 255, 255);
+    }
+    #header .navbar.navbar-scrolled .navbar-brand{
+        color: #212529;
+    }
+    #header .navbar.navbar-scrolled .nav-item .nav-link{
+        color: #212529;
+    }
+    
+    #header .navbar.navbar-scrolled .navbar-brand:hover{
+        color: #f24516;
+    }
+    
+    #header .navbar.navbar-scrolled .nav-link:hover{
+        color: #f24516;
+    }
+    /* Intro */
+    #intro{
+        background: url(../img/intro\ bg.png),linear-gradient(to left,#7b4397,#dc2430);
+        height: 100vh;
+        min-height: 775px;
+        padding-top: 0;
+        padding-bottom: 0;
+        position: relative;
+        width: 100%;
+
+    }
+    #intro .content{
+        max-width: 450px;
+        text-align: left;
+        
+    }
+    #intro .content h1{
+        color: white;
+        font-weight: 400;
+        font-size: 3rem;
+
+    }
+    #intro .device-container{
+        max-width: 271px;
+
+    }
+    .iphone-6{
+        width: 100%;
+        position: relative;
+        padding-bottom: 201.76%;
+
+    }
+    .iphone-6 .device-photo{
+        background-image: url(../img/iphone_6.png);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .iphone-6 .device-photo .screen{
+        overflow: hidden;
+        position: absolute;
+        top: 11.2%;
+        bottom: 11.2%;
+        left: 6%;
+        right: 6%;
+
+    }
+    .iphone-6 .device-photo .button{
+        position: absolute;
+        cursor: pointer;
+        overflow: hidden;
+        display: block;
+        top: 89.9%;
+        bottom: 3.2%;
+        left: 43%;
+        right: 43%;
+
+    }
+    /* Discover */
+    #discover{
+        padding: 140px 0px;
+        background: linear-gradient(#fdcc52,#fdc539);
+        background-repeat: no-repeat;
+
+    }
+    #discover h1{
+        font-size: 70px;
+        font-weight: 300;
+
+    }
+    #discover p{
+        font-size: 18px;
+    }
+    
+    #discover .badges a img{
+        width: 200px;
+    }
+    /* Features */
+    #features{
+        padding: 100px 0;
+
+    }
+    #features .content{
+        text-align: center;
+        margin-bottom: 7rem;
+    }
+    #features .content h2{
+        font-size: 48px;
+        font-weight: 300;
+        margin-bottom: 1rem;
+
+    }
+    #features .content hr{
+        width: 10%;
+    }
+    #features .device-container{
+        max-width: 325px;
+    }
+    #features .item{
+        padding-top: 45px;
+        padding-bottom: 45px;
+        text-align: center;
+
+    }
+    #features .item i{
+        font-size: 82px;
+        display: block;
+        color: gray;
+        margin-bottom: 13px;
+        
+    }
+    #features .item h3{
+        font-weight: 300;
+        font-size: 30px;
+        
+    }
+    #features .item p{
+        color: gray;
+    font-size: 18px;
+    }
+    /* START section */
+    #start{
+        background-image: url(../img/start\ bg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 250px 0;
+        position: relative;
+    }
+    #start .content{
+        position: relative;
+        z-index: 1;
+    }
+    #start h1{
+        color: white;
+        font-size: 72px;
+        font-weight: 400;
+    }
+    #start .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.5);
+    }
+    #social{
+        padding: 140px 0px;
+        background: linear-gradient(#fdcc52,#fdc539);
+        background-repeat: no-repeat;
+    }
+    #social h3{
+        font-size: 50px;
+        font-weight: 400;
+        margin-bottom: 2rem;
+
+    }
+    #social .fa-heart{
+        color: #dd4b39;
+
+    }
+    #social .social-networks a{
+        display: inline-block;
+        margin-right: 1rem;
+        
+
+    }
+    #social .social-networks .twitter{
+        background-color: #1da1f2;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        line-height: 80px;
+
+    }
+    #social .social-networks .facebook{
+        background-color: #3b5998;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        line-height: 80px;
+
+    }
+    #social .social-networks .google{
+        background-color: #dd4b39;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        line-height: 80px;
+
+    }
+    #social .social-networks i{
+        color: white;
+        font-size: 40px;
+
+    }
+    /* FOOTER */
+    footer{
+        padding: 20px 0;
+        text-align: center;
+        color: rgba(255,255,255,.3);
+        background-color: #222;
+        font-size: 12px;
+    }
+    footer ul{
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 0;
+    }
+    footer li{
+        display: inline-block;
+        margin-right: 12px;
+    }
+    /* Responsive */
+    @media screen and (max-width: 992px) {
+        #intro .content {
+            margin: 80px 0;
+            text-align: center;
+        }
+        #intro .content h1{
+           font-size: 26px!important;
+       }
+       #intro .device-container{
+           max-width: 200px;
+           margin: 0;
+       }
+       #discover h1{
+           font-size: 46px!important;
+       }
+       #discover img{ 
+           margin-bottom: 20px;  
+       }
+       #features .device-container{
+           margin-bottom: 6rem;
+       }
+       #start h1{
+           font-size: 42px;
+       }
+        
+    }
